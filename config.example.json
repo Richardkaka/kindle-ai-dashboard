@@ -1,0 +1,35 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8787,
+    "refreshMinutes": 30
+  },
+  "display": {
+    "title": "AI Coding",
+    "timezone": "Asia/Shanghai"
+  },
+  "location": {
+    "label": "Beijing",
+    "query": "Beijing",
+    "latitude": 30.5928,
+    "longitude": 114.3055
+  },
+  "codex": {
+    "mode": "manual",
+    "remaining": "Manual",
+    "resetAt": "2026-06-04T03:00:00+08:00",
+    "note": "Codex App 暂无稳定本地额度接口"
+  },
+  "claude": {
+    "mode": "manual",
+    "remaining": "Manual",
+    "resetAt": "2026-06-04T03:00:00+08:00",
+    "note": "可后续接入 ccusage JSON"
+  },
+  "breakReminder": {
+    "workMinutes": 50,
+    "breakMinutes": 10,
+    "dayStart": "09:30",
+    "dayEnd": "23:30"
+  }
+}

@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: #f8f8f2;
+  color: #111;
+  font-family: Georgia, "Times New Roman", "Noto Serif SC", "Songti SC", serif;
+}
+
+body {
+  text-align: left;
+}
+
+.screen {
+  width: 100%;
+  max-width: 758px;
+  min-height: 100vh;
+  padding: 12px;
+}
+
+header {
+  border: 3px solid #111;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 44px;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+header p {
+  margin-top: 6px;
+  font-size: 20px;
+  color: #555;
+}
+
+.panel {
+  border: 3px solid #111;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+  background: #fff;
+}
+
+.panel-head {
+  border-bottom: 2px solid #111;
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+
+h2 {
+  display: inline;
+  font-size: 29px;
+  line-height: 1.05;
+}
+
+.panel-head span {
+  float: right;
+  font-size: 18px;
+  color: #555;
+  white-space: nowrap;
+}
+
+.metric {
+  font-size: 36px;
+  line-height: 1.1;
+  font-weight: 700;
+  margin-bottom: 6px;
+  overflow-wrap: anywhere;
+}
+
+.muted,
+.panel p {
+  font-size: 19px;
+  line-height: 1.25;
+  color: #555;
+}
+
+.forecast {
+  display: table;
+  width: 100%;
+  border-top: 2px solid #111;
+  border-left: 2px solid #111;
+}
+
+.forecast div {
+  display: table-cell;
+  width: 33.33%;
+  min-height: 86px;
+  padding: 8px;
+  border-right: 2px solid #111;
+  border-bottom: 2px solid #111;
+}
+
+.forecast b,
+.forecast span,
+.forecast em {
+  display: block;
+  font-style: normal;
+}
+
+.forecast b {
+  font-size: 19px;
+}
+
+.forecast span {
+  font-size: 20px;
+  margin: 4px 0;
+}
+
+.forecast em {
+  font-size: 18px;
+  color: var(--muted);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  min-height: 30px;
+  font-size: 21px;
+  line-height: 1.18;
+  border-bottom: 1px solid #888;
+  padding: 4px 0;
+}
+
+li span {
+  flex: 0 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+li.done {
+  color: #555;
+  text-decoration: line-through;
+}
+
+.break {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 2px solid #111;
+  font-weight: 700;
+}
+
+@media (max-width: 520px) {
+  .screen {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  .metric {
+    font-size: 34px;
+  }
+
+  .forecast {
+    grid-template-columns: 1fr;
+  }
+}

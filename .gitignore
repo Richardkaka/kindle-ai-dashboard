@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+
+config.json
+todos.md
+.env
+.env.*
+!.env.example
+
+output/
+logs/
+*.log

@@ -1,0 +1,4 @@
+- [ ] Try the local dashboard preview
+- [ ] Configure Kindle SSH access
+- [ ] Set a fixed IP address for the Kindle
+- [ ] Tune refresh interval for battery life

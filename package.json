@@ -1,0 +1,30 @@
+{
+  "name": "kindle-ai-dashboard",
+  "version": "0.1.0",
+  "description": "A local low-refresh Kindle dashboard for AI coding status, weather, todos, and break reminders.",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "kindle",
+    "e-ink",
+    "dashboard",
+    "codex",
+    "claude-code"
+  ],
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "render": "node scripts/render-dashboard.js",
+    "sync": "npm run render && node scripts/sync-kindle.js",
+    "auto": "node scripts/auto-sync.js",
+    "sync:ssh": "npm run render && node scripts/sync-kindle-ssh.js",
+    "display:ssh": "node scripts/display-kindle-ssh.js",
+    "push:ssh": "npm run sync:ssh && node scripts/display-kindle-ssh.js",
+    "auto:ssh": "node scripts/auto-sync-ssh.js",
+    "service:install": "node scripts/install-launchd.js",
+    "service:uninstall": "node scripts/uninstall-launchd.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

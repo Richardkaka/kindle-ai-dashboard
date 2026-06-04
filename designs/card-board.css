@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: #fff;
+  color: #111;
+  font-family: "Amazon Ember", Helvetica, Arial, "PingFang SC", "Noto Sans CJK SC", sans-serif;
+  font-weight: 400;
+}
+
+.screen {
+  width: 758px;
+  min-height: 1024px;
+  padding: 12px;
+}
+
+.topbar {
+  border: 0;
+  border-bottom: 1px solid #777;
+  padding: 12px;
+  margin-bottom: 16px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.topbar div {
+  float: left;
+}
+
+.topbar .status {
+  float: right;
+  margin-top: 9px;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 42px;
+  line-height: 1;
+  font-weight: 800;
+}
+
+.topbar p {
+  margin-top: 6px;
+  color: #555;
+  font-size: 18px;
+}
+
+.grid {
+  overflow: hidden;
+}
+
+.card {
+  float: left;
+  width: 349px;
+  height: 184px;
+  margin: 0 16px 16px 0;
+  border: 0;
+  padding: 10px 8px 10px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.card:nth-child(2n) {
+  margin-right: 0;
+}
+
+.icon-wrap {
+  float: left;
+  width: 36px;
+  height: 36px;
+  margin: 2px 10px 0 0;
+  padding: 0;
+}
+
+.card-line {
+  overflow: hidden;
+  min-height: 42px;
+}
+
+.pxi {
+  border-collapse: collapse;
+  width: 32px;
+  height: 32px;
+}
+
+.pxi td {
+  width: 4px;
+  height: 4px;
+  padding: 0;
+  background: #fff;
+}
+
+.pxi td.on {
+  background: #111;
+}
+
+.card h2 {
+  float: left;
+  margin: 0;
+  color: #111;
+  font-size: 34px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.card-value {
+  float: right;
+  max-width: 138px;
+  margin-top: 7px;
+  color: #111;
+  font-size: 21px;
+  line-height: 1.05;
+  font-weight: 600;
+  text-align: right;
+}
+
+.meta {
+  margin-top: 34px;
+  color: #555;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: right;
+}
+
+.bar {
+  clear: both;
+  height: 10px;
+  margin-top: 34px;
+  background: #fff;
+}
+
+.bar span {
+  display: block;
+  height: 100%;
+  background: #111;
+}
+
+.bar-6 {
+  width: 62%;
+}
+
+.bar-4 {
+  width: 44%;
+}
+
+.weather-value {
+  margin-top: 32px;
+  font-size: 32px;
+  line-height: 1.1;
+  font-weight: 700;
+  text-align: center;
+}
+
+.weather-meta {
+  margin-top: 12px;
+  color: #555;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+}
+
+.break-primary {
+  margin-top: 32px;
+  font-size: 29px;
+  line-height: 1.1;
+  font-weight: 700;
+  text-align: center;
+}
+
+.break-secondary {
+  margin-top: 10px;
+  color: #555;
+  font-size: 18px;
+  text-align: center;
+}
+
+.today {
+  clear: both;
+  border: 0;
+  margin-top: 0;
+  padding: 0 12px 12px;
+  min-height: 344px;
+  background: #fff;
+}
+
+.today-head {
+  overflow: hidden;
+  border-top: 1px solid #777;
+  border-bottom: 1px solid #777;
+  padding: 12px 0 10px;
+  margin-bottom: 8px;
+}
+
+.today-mark {
+  display: none;
+}
+
+.today-head h2 {
+  float: left;
+  font-size: 34px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.today-head span {
+  float: right;
+  color: #555;
+  font-size: 18px;
+  margin-top: 7px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  min-height: 43px;
+  padding: 5px 0;
+  border-bottom: 1px solid #bbb;
+  font-size: 22px;
+  line-height: 1.5;
+  background: #fff;
+}
+
+li span {
+  display: inline-block;
+  width: 44px;
+  height: 32px;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  vertical-align: top;
+}
